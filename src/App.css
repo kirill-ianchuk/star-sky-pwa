@@ -517,7 +517,7 @@ button {
 .bottom-nav {
   position: fixed;
   left: 50%;
-  bottom: 0;
+  bottom: 8px;
   transform: translateX(-50%);
   width: 100%;
   max-width: var(--app-width);
