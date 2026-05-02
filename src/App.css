@@ -1,8 +1,8 @@
 :root {
   --bg: #f6f5f2;
   --surface: #ffffff;
-  --text: #1d1d1b;
-  --muted: #73736d;
+  --text: #000000;
+  --muted: #000000;
   --line: #e3e0d8;
   --accent: #476b5c;
   color-scheme: light;
@@ -59,7 +59,7 @@ select {
 label {
   display: grid;
   gap: 6px;
-  color: #5f5f59;
+  color: #000000;
   font-size: 13px;
   font-weight: 700;
 }
@@ -81,7 +81,7 @@ label {
 
 .eyebrow {
   margin: 0 0 6px;
-  color: #5e5e5a;
+  color: #000000;
   font-size: 13px;
 }
 
@@ -94,20 +94,20 @@ p {
 
 h1 {
   margin-bottom: 0;
-  color: #111111;
+  color: #000000;
   font-size: 34px;
   line-height: 1.1;
 }
 
 h2 {
   margin-bottom: 14px;
-  color: #151513;
+  color: #000000;
   font-size: 20px;
 }
 
 h3 {
   margin-bottom: 10px;
-  color: #4f4f4a;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -162,7 +162,7 @@ h3 {
 
 .workflow-header h2 {
   margin-bottom: 0;
-  color: #111111;
+  color: #000000;
 }
 
 .back-button {
@@ -246,18 +246,18 @@ h3 {
   padding: 0 10px;
   border-radius: 10px;
   background: #f6f4f1;
-  color: var(--text);
+  color: #000000;
   font-size: 13px;
   font-weight: 700;
 }
 
 .context-menu button:last-child {
   background: #f4ecec;
-  color: #8b4d4d;
+  color: #000000;
 }
 
 .empty-text {
-  color: #61615b;
+  color: #000000;
 }
 
 @media (max-width: 640px) {
