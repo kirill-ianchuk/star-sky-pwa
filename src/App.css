@@ -54,7 +54,7 @@ select {
 label {
   display: grid;
   gap: 6px;
-  color: var(--muted);
+  color: #5f5f59;
   font-size: 13px;
   font-weight: 700;
 }
@@ -75,7 +75,7 @@ label {
 
 .eyebrow {
   margin: 0 0 6px;
-  color: var(--muted);
+  color: #5e5e5a;
   font-size: 13px;
 }
 
@@ -88,18 +88,20 @@ p {
 
 h1 {
   margin-bottom: 0;
+  color: #111111;
   font-size: 34px;
   line-height: 1.1;
 }
 
 h2 {
   margin-bottom: 14px;
+  color: #151513;
   font-size: 20px;
 }
 
 h3 {
   margin-bottom: 10px;
-  color: var(--muted);
+  color: #4f4f4a;
   font-size: 15px;
 }
 
@@ -153,6 +155,7 @@ h3 {
 
 .workflow-header h2 {
   margin-bottom: 0;
+  color: #111111;
 }
 
 .back-button {
@@ -245,7 +248,7 @@ h3 {
 }
 
 .empty-text {
-  color: var(--muted);
+  color: #61615b;
 }
 
 @media (max-width: 640px) {
