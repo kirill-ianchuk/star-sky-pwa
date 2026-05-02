@@ -112,7 +112,10 @@ function App() {
   };
 
   const deleteRitual = (ritualId: string) => {
-    if (!confirm("Удалить ритуал?")) return;
+    if (!confirm("Удалить ритуал?")) {
+      setMenuRitualId(null);
+      return;
+    }
 
     setRituals((current) => current.filter((ritual) => ritual.id !== ritualId));
     setMenuRitualId(null);
