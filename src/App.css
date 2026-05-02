@@ -224,6 +224,10 @@ h3 {
   padding: 13px 14px;
   font-weight: 700;
   color: var(--text);
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .context-menu {
@@ -240,6 +244,9 @@ h3 {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
   z-index: 10;
   color: var(--text);
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .context-menu button {
