@@ -54,6 +54,7 @@ select {
   background: #fff;
   color: var(--text);
   padding: 12px;
+  font-size: 16px;
 }
 
 label {
